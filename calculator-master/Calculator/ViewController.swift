@@ -9,23 +9,16 @@
 import UIKit
 import CalculatorCore
 
-precedencegroup YumeComparisonAssignmentPrecedence {
+precedencegroup IPrecedence {
     associativity: left
     lowerThan: ComparisonPrecedence
     higherThan: LogicalConjunctionPrecedence
 }
-infix operator -- : YumeComparisonAssignmentPrecedence
+infix operator -- : IPrecedence
 public func -- (left: Double, right: Double) -> Double {
-            return pow(left , 1/right)
+            return  pow(left , 1.0/right)
 }
 
-//infix operator +- :{
-//    associativity
-//    left precedence 140
-//}
-//func +- (left: Double, right: Double) -> Double {
-//    return pow(left , right)
-//}
 extension Double {
 
     /// This computed property would provide a formatted string representation of this double value.
