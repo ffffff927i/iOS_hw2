@@ -1,0 +1,13 @@
+dex+8 int+6
+dex+10 int+10
+dex+30 int+30
+dex+3
+—————————————dex+51 int+46 =>74
+s120 a2 v115 i100 d102 l1=>151
+—————————————dex-40
+head 1.5 midd 1.5 
+down 1.5 clot 0
+wear 0   deff 0
+shaw 15  shoe 0
+deco 0   deco 0
+————————————-19.5
